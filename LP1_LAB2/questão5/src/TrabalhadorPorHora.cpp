@@ -2,7 +2,10 @@
 
 TrabalhadorPorHora::TrabalhadorPorHora(){
 
-        //default
+        nome = " ";
+        salario = 0;
+        horasTrabalhadas = 0;
+        valorDaHora = 0;
 }
 
 void TrabalhadorPorHora::setValorDaHora(double valorDaHora){
@@ -46,11 +49,13 @@ double TrabalhadorPorHora::getSalario(){
 
         salario = valorDaHora * horasTrabalhadas;
 
-        return salario;
+        return salario*4;
 }
 
-double TrabalhadorPorHora::calcularPagamentoSemanal(){
+double TrabalhadorPorHora::calcularPagamentoSemanal(int horas){
 
-        return salario = getSalario();
+        salario = valorDaHora * horas;
+
+        return salario;
 
 }

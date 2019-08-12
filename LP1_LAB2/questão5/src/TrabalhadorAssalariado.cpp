@@ -1,6 +1,8 @@
 #include "TrabalhadorAssalariado.hpp"
 
-TrabalhadorAssalariado::TrabalhadorAssalariado(){
+TrabalhadorAssalariado::TrabalhadorAssalariado()
+        : Trabalhador()
+{
 
         ///default
 

@@ -1,11 +1,11 @@
 #include "Trabalhador.hpp"
 
-
 Trabalhador::Trabalhador(){
 
-        //default
-}
+    nome = " ";
+    salario = 0;
 
+}
 
 void Trabalhador::setNome(std::string nome){
 

@@ -10,7 +10,7 @@ double valorDaHora;
 float horasTrabalhadas;
 
 public:
-TrabalhadorPorHora ();
+TrabalhadorPorHora();
 
 void setValorDaHora(double valorDaHora);
 void setHorasTrabalhadas(float horasTrabalhadas);
@@ -18,7 +18,7 @@ void setHorasTrabalhadas(float horasTrabalhadas);
 float getHorasTrabalhadas();
 double getValorDaHora();
 double getSalario();
-double calcularPagamentoSemanal();
+double calcularPagamentoSemanal(int horas);
 
 };
 
